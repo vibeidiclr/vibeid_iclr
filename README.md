@@ -1,4 +1,4 @@
-# VIBeID: A Structural **VIB**ration-based Soft Biometric Dataset and Benchmark for Person **ID**entification
+# VIBeID:  STRUCTURAL VIBRATION-BASED SOFT BIOMETRIC DATASET FOR HUMAN GAIT RECOGNITION
 This repository provides a script to download Pre-processed  VIBeID datasets, create DataLoaders for training and testing, and train a ResNet-18 and ResNet-50 model using PyTorch.
 
 ![1717854965704](image/README/1717854965704.png)
@@ -87,31 +87,12 @@ python install_libraries.py
 
 
 ### STEP 2: Download the Datasets
-You can download the datasets from the Kaggle (dataset is public)
-
-1. vibeid-a1 [A1](https://www.kaggle.com/datasets/mainakml/vibeid-a1)
-2. vibeid-a2 [A2](https://www.kaggle.com/datasets/mainakml/vibeid-a2)
-3. vibeid-a3 [A3](https://www.kaggle.com/datasets/mainakml/vibeid-a3)
-4. vibeid-a4 [A4](https://www.kaggle.com/datasets/mainakml/vibeid-a-4-1)
-
-OR 
-run 
-
-```python kaggle_dataset_download.py --kaggle_dataset "mainakml/dataset link"```
-
-Quick  Run 
-```python kaggle_dataset_download.py --kaggle_dataset "mainakml/vibeid-a-4-1"```
-
-change the dataset link as your requirement
-1. mainakml/vibeid-a1
-2. mainakml/vibeid-a2
-3. mainakml/vibeid-a3
-4. mainakml/vibeid-a-4-1
+You can download the datasets from the OSF (dataset is public)
 
 
 ### STEP 3: Quick Run
 
-```python single_run.py --output_dir C:\Users\mainak\Documents\GitHub\VIBEID\VIBeID_A_4_1 --batch_size 16 --num_epochs 100 --model resnet18 --num_classes 15```
+```python single_run.py --output_dir path_of_output_directory --batch_size 16 --num_epochs 100 --model resnet18 --num_classes 15```
 
 ### STEP 4: Run dataset as per your requirement
 
