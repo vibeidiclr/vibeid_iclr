@@ -10,9 +10,8 @@ This repository provides a script to download Pre-processed  VIBeID datasets, cr
 ## Arguments
 
 ### `--kaggle_dataset`
-- **Description**: Kaggle dataset identifier in the format `mainakml/dataset-name`.
+- **Description**: Kaggle dataset identifier in the format `username/dataset-name`.
 - **Type**: `str`
-- **Default**: `'mainakml/vibeid-a-4-1'`
 - **Example**: `--kaggle_dataset yourusername/yourdataset`
 - **Note**: This argument specifies which dataset to download from Kaggle.
 
